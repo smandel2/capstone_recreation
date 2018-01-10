@@ -50,7 +50,7 @@ Gradient Boost yielded the best results – Accuracy Score 0.555
 
 # Next Steps
 
-* Move sparse regions to an “Other” region
 * Add weights to the model for Mountain and Pacific
 * Rerun only the Mountain predictions in a new model
 * Add data from 2014
+* Possibly move sparse regions to an “Other” region or redefine the regions
