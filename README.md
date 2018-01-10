@@ -31,7 +31,7 @@ The target variable is Region which had been created and mapped to State as ment
 
 Train, Test, Split – 67% for training set  and 33% for test set
 
-The frequency of the most frequent class is 30.67%
+The frequency of the most frequent class is 30.67% - Pacific Coast. This is the baseline. The next most frequent class is Mountain at 25.49%
 
 Models used: Logistic Regression with GridSearchCV, Decision Tree Classifier, Random Forest Classifier, and Gradient Boost.
 
