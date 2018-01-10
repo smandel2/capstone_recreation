@@ -3,6 +3,8 @@
 
 # Goal - Predict the region of the country where a campground is located
 
+[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/florida_rv.png)
+
 # Data Acquisition / Preprocessing
 
 I obtained 2015 reservation data from the recreation.gov website, which consists of over 30 agencies including the National Park Service, the US Army Corps of Engineers, the Bureau of Land Management, USDA Forest Service and many other Federal agencies. From the data dictionary, I learned that there is a Camping dataset that links to the Reservations dataset. I mapped the camping data to the reservation data to only include camping related reservations using a lambda function.
