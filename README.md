@@ -19,7 +19,7 @@ In looking at the data, there were some distinct differences across regions as f
 
 Most of the null values resulted from categorical items such as Tent, RV, Van, Fifth Wheel, etc. Some items such as Boat had mostly null values and these columns were deleted. Most reservations consisted of one or two of these items. Note that these attributes are optional according to the data dictionary. I chose to impute the remaining null values to zero.
 
-[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/maps.jpg)
+![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/maps.jpg)
 
 The target variable is Region which had been created and mapped to State as mentioned above. Since region is mapped to State, I excluded State from the feature set.
 
@@ -33,13 +33,13 @@ Models used: Logistic Regression with GridSearchCV, Decision Tree Classifier, Ra
 
 Gradient Boost yielded the best results – Accuracy Score 0.555
 
-[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/feature_imp_gb.jpg)
+![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/feature_imp_gb.jpg)
 
-[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/confusion_matrix_gb.jpg)
+![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/confusion_matrix_gb.jpg)
 
-[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/heat_map_cm.jpg)
+![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/heat_map_cm.jpg)
 
-[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/class_rep_gb.jpg)
+![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/class_rep_gb.jpg)
 
 # Next Steps
 
