@@ -37,7 +37,8 @@ Gradient Boost yielded the best results – Accuracy Score 0.555
 
 ![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/confusion_matrix_gb.png)
 
-## Confusion Matrix Heat Map 
+
+## Confusion Matrix Heat Map
 
 ![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/heat_map_cm.png)
 
