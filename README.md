@@ -3,7 +3,7 @@
 
 # Goal - Predict the region of the country where a campground is located
 
-[alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/florida_rv.png)
+![alt text](https://raw.github.com/smandel2/capstone_recreation/master/images/florida_rv.png)
 
 # Data Acquisition / Preprocessing
 
